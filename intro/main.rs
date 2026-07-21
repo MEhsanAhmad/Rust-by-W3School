@@ -3,6 +3,7 @@ fn main() {
     name();
     city_name();
     cname();
+    add();
 }
 
 fn hello() {
@@ -21,3 +22,6 @@ fn cname() {
     println!("Pakistan");
 }
 
+fn add() {
+    println!("{}"10+11);
+}
