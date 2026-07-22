@@ -4,3 +4,6 @@ intro
 rust get start
 output
 how exe file work
+Variable & Commit
+Rust Data type
+
