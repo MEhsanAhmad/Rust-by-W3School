@@ -9,24 +9,25 @@ fn main() {
     io::stdin()
         .read_line(&mut a)
         .expect("Enter correct amount");
-    println!("A is Equal to = {}", a.trim());
+    println!("\nA is Equal to = {}", a.trim());
 
     // 2nd line
     a.clear();
-    println!("Enter Amount of a:");
+    println!("\nEnter Amount of a:");
     io::stdin()
         .read_line(&mut a)
         .expect("Enter correct amount");
-    println!("A is Equal to = {}", a.trim());
+    println!("\nA is Equal to = {}", a.trim());
 
     //3rd line
     a.clear();
-    println!("Enter Amount of a:");
+    println!("\nEnter Amount of a:");
     io::stdin()
         .read_line(&mut a)
         .expect("Enter correct amount");
-    println!("A is Equal to = {}", a.trim());
+    println!("\nA is Equal to = {}", a.trim());
 
+    println!("\nEnter any key for exit:");
 
     let mut close = String::new();
     io::stdin()
